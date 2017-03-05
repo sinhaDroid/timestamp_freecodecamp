@@ -24,3 +24,25 @@ app.get('/', function (req, res) {
         }
     });
 });
+
+app.get('/:dateString', function (req, res) {
+    // body...
+    var myDate;
+    if(/^\d{8,}$/.test(req.params.dateString)) {
+        myDate = moment(req.params.dateString, "X");
+    } else {
+        myDate = moment(req.params.dateString, "MMMM D, YYYY");
+    }
+    
+    if (myDate.isValid()) {
+        res.json({
+            unix: myDate.format("X"),
+            natural: myDate.format("MMMM D, YYYY")
+        });
+    } else {
+        res.json({
+            unix: null,
+            natural: null
+        });
+    }
+});

@@ -1,6 +1,6 @@
 {
   "name": "timestamp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "freecodecamp project",
   "main": "index.js",
   "scripts": {
