@@ -1,0 +1,26 @@
+{
+  "name": "timestamp",
+  "version": "1.0.0",
+  "description": "freecodecamp project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sinhaDroid/timestamp_freecodecamp.git"
+  },
+  "keywords": [
+    "freecodecamp",
+    "timestamp"
+  ],
+  "author": "deepanshu sinhaa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sinhaDroid/timestamp_freecodecamp/issues"
+  },
+  "homepage": "https://github.com/sinhaDroid/timestamp_freecodecamp#readme",
+  "dependencies": {
+    "express": "^4.15.0"
+  }
+}
