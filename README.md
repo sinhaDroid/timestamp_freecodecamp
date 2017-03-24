@@ -11,5 +11,14 @@ For [Free Code Camp](http://freecodecamp.com) - [API Basejump: Timestamp Microse
 2. If it does, it returns both the Unix timestamp and the natural language form of that date.
 3. If it does not contain a date or Unix timestamp, it returns null for those properties.
 
+### Example Usage
+
+1. https://timestamp-ms.herokuapp.com/December%2015,%202015
+2. https://timestamp-ms.herokuapp.com/1450137600
+
+### Example Output
+
+{ "unix": 1450137600, "natural": "December 15, 2015" }
+
 ### Live Site
-[http://saintpeter-ts-micro.herokuapp.com](http://saintpeter-ts-micro.herokuapp.com)
+[https://timestamp-ms.herokuapp.com](https://timestamp-ms.herokuapp.com)
