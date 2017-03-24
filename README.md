@@ -1,7 +1,7 @@
 # timestamp_freecodecamp
 
 ## API Basejump: Timestamp Microservice
-By Rex "SinhaDroid" Deepanshu
+By "SinhaDroid" Deepanshu
 
 For [Free Code Camp](http://freecodecamp.com) - [API Basejump: Timestamp Microservice](http://www.freecodecamp.com/challenges/basejump-timestamp-microservice)
 
