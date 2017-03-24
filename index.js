@@ -6,11 +6,6 @@ var path = require("path");
 
 var port = process.env.PORT || 3500;
 
-app.listen(port, function () {
-    // body...
-    console.log("Listening on port: " + port);
-});
-
 app.get('/', function (req, res) {
     // body...
     var fileName = path.join(__dirname, 'index.html');
@@ -45,4 +40,9 @@ app.get('/:dateString', function (req, res) {
             natural: null
         });
     }
+});
+
+app.listen(port, function () {
+    // body...
+    console.log("Listening on port: " + port);
 });
